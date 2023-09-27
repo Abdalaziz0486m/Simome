@@ -1,0 +1,477 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #4c4d4d;
+}
+
+header {
+    background-image: url('../Images/intro-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    padding-right: 1em;
+}
+
+li a {
+    text-decoration: none;
+    color: white !important;
+    transition: 0.5s all !important;
+}
+
+li a span {
+    color: #20bf90;
+}
+
+li a:hover {
+    color: #20bf90 !important;
+}
+
+.Logo {
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+}
+
+.sociol i {
+    padding-right: 1em;
+    transition: 0.5s all;
+    font-size: 1.3em;
+    color: aliceblue;
+}
+
+.sociol .face:hover {
+    color: #1877f2;
+}
+
+.sociol .dribbble:hover {
+    color: #ea4c89;
+}
+
+.tog {
+    background-color: #20bf90;
+}
+
+.Home {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Home h3 {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 2em;
+}
+
+.Home h1 {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 4em;
+}
+
+.Home p {
+    width: 100%;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.HomeContent {
+    color: white;
+}
+
+.Home button {
+    padding: 1em 3em;
+    border-radius: 50rem;
+    border: 2px solid #20bf90;
+    background-color: transparent;
+    font-size: 1em;
+    transition: 0.5s all;
+}
+
+.Home button a {
+    text-decoration: none;
+    color: #20bf90;
+    transition: 0.5s all;
+}
+
+.Home button:hover {
+    background-color: #20bf90;
+}
+
+.Home button:hover a {
+    color: white;
+}
+
+/* Start About */
+.sec1back h2 {
+    font-size: 8em;
+}
+
+.sechead {
+    top: 25%;
+}
+
+.underline {
+    width: 100px;
+    height: 3px;
+    background-color: #20bf90;
+}
+
+.aboutItem span {
+    color: #20bf90;
+}
+
+.meData {
+    border-bottom: #f7f7f7 solid 2px;
+}
+
+.cvButton {
+    background-color: #20bf90;
+    border-radius: 50rem;
+    border: none;
+}
+
+.cvButton:hover {
+    background-color: #1BAC82;
+}
+
+.work {
+    font-size: 3em;
+}
+
+/* End About */
+/* Start What I Do */
+.sec2 {
+    background-color: #f8f9fa;
+}
+
+.ServicesIcon {
+    box-shadow: 3px 3px 20px;
+}
+
+.ServicesIcon i {
+    color: #20bf90;
+    font-size: 2em;
+}
+
+/* End What I Do */
+/* Start Resume */
+.resumeItem {
+    border: #e2e5e9 1px solid;
+    border-radius: 5px;
+}
+
+.resumeYear {
+    background-color: #20bf90;
+    border-radius: 5px;
+}
+
+.resumeItem span {
+    color: #DC3545;
+}
+
+/* End Resume */
+/* Start Skills */
+.skillscale {
+    width: 100%;
+    background-color: #E9ECEF;
+    height: 10px;
+    border-radius: 50rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.skillscale1 {
+    background-color: #20bf90;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 35%;
+}
+
+.skillscale2 {
+    background-color: #20bf90;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 5%;
+}
+
+.skillscale3 {
+    background-color: #20bf90;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 20%;
+}
+
+.skillscale4 {
+    background-color: #20bf90;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 30%;
+}
+
+.skillscale5 {
+    background-color: #20bf90;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 40%;
+}
+
+.skillscale6 {
+    background-color: #20bf90;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 1%;
+}
+
+.skillButton button {
+    border: #6C757D solid 2px;
+    border-radius: 50rem;
+    color: #6C757D;
+    transition: 0.5s all;
+}
+
+.skillButton button i {
+    color: #6C757D;
+    transition: 0.5s all;
+}
+
+.skillButton button:hover {
+    background-color: #6C757D;
+    color: white;
+}
+
+.skillButton button:hover i {
+    color: white;
+}
+
+/* Start Skills */
+/* Start Portfolio */
+.sec5 {
+    background-color: #F8F9FA;
+}
+
+.filter a {
+    color: #4c4d4d !important;
+}
+
+.workNavUnderline {
+    width: 100%;
+    height: 2px;
+    background-color: #20bf90;
+}
+
+.caption p {
+    color: #DEE3E4;
+}
+
+.caption1 {
+    transition: 0.5s all;
+}
+
+figure:hover .caption1 {
+    opacity: 0.75 !important;
+}
+
+.caption2 {
+    transition: 0.5s all;
+}
+
+figure:hover .caption2 {
+    opacity: 0.75 !important;
+}
+
+.caption3 {
+    transition: 0.5s all;
+}
+
+figure:hover .caption3 {
+    opacity: 0.75 !important;
+}
+
+.caption4 {
+    transition: 0.5s all;
+}
+
+figure:hover .caption4 {
+    opacity: 0.75 !important;
+}
+
+.caption5 {
+    transition: 0.5s all;
+}
+
+figure:hover .caption5 {
+    opacity: 0.75 !important;
+}
+
+.caption6 {
+    transition: 0.5s all;
+}
+
+figure:hover .caption6 {
+    opacity: 0.75 !important;
+}
+
+.caption7 {
+    transition: 0.5s all;
+}
+
+figure:hover .caption7 {
+    opacity: 0.75 !important;
+}
+
+/* End Portfolio */
+/* Start Client Speak */
+.ClientItem {
+    background-color: #F8F9FA;
+}
+
+.ClientItem figure img {
+    border-radius: 50%;
+}
+
+.ClientItem i {
+    color: #ffc107;
+}
+
+.myBotton {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #4c4d4d !important;
+    transition: 0.5s all !important;
+}
+
+.myBotton:hover {
+    background-color: #20bf90 !important;
+}
+
+.buttonBox div {
+    border: #20bf90 solid 2px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Client Speak */
+/* Start Contact */
+.sec7 {
+    background-color: #f8f9fa;
+}
+
+.contactIcon i {
+    color: #20bf90;
+    font-size: 1.5em;
+}
+
+.Sossial i {
+    font-size: 1.5em;
+    margin-right: 1em;
+    color: #20bf90;
+}
+
+.sec7 input {
+    border: #dde4e5 2px solid !important;
+    border-radius: 5px;
+}
+
+.sec7 textarea {
+    border: #dde4e5 2px solid !important;
+    border-radius: 5px;
+}
+
+.sec7 button {
+    border-radius: 50rem;
+    border: none;
+    background-color: #20bf90;
+}
+
+.sec7 button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* End Contact */
+/* Start Footer */
+footer span {
+    color: #20bf90;
+}
+
+.termList {
+    border-right: solid 2px #d2d2d2;
+}
+
+/* End Footer */
+
+
+@media screen and (max-width: 600px) {
+    .secHEad {
+        font-size: 9px;
+    }
+
+    .ClintHead{
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .secHEad {
+        font-size: 12px;
+    }
+}

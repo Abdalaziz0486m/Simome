@@ -1,0 +1,87 @@
+ <section class="sec1">
+
+            <div class="sec1back">
+                <h2>ABOUT ME</h2>
+            </div>
+            <div class="sec1cont">
+
+                <div class="sechead">
+                    <h2>Know Me More</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="sec1data">
+
+                    <article class="me">
+
+                        <h3>I'm <span>Abdalaziz Mohamed,</span> a Web Developer</h3>
+                        <p>
+                            I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results
+                            while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.
+                        </p>
+                        <p>
+                            Delivering work within time and budget which meets clientâ€™s requirements is our moto. Lorem Ipsum has been the
+                            industry's standard dummy text ever when an unknown printer took a galley. Lorem Ipsum has been the industry's standard
+                            dummy text ever when an unknown printer took a galley.
+                        </p>
+
+                    </article>
+                    <div class="data">
+
+                        <ul>
+                            
+                            <li>
+                                <h4>Name:</h4>
+                                <p>Abdalaziz Mohamed</p>
+                            </li>
+                            <li>
+                                <h4>Email:</h4>
+                                <p class="email">abdalazezm2@gmail.com</p>
+                            </li>
+                            <li>
+                                <h4>Age:</h4>
+                                <p>24</p>
+                            </li>
+                            <li>
+                                <h4>From:</h4>
+                                <p>10th OF Ramadan, Egypt</p>
+                            </li>
+
+                        </ul>
+                        <button><a href="#">Download CV</a></button>
+
+                    </div>
+
+                </div>
+                <div class="d-flex justify-content-sm-around w-75 ms-auto me-auto mb-5">
+
+                    <div class="text-center">
+
+                        <p class="num fw-semibold pb-0 mb-1">10+</p>
+                        <p class="">Years Experiance</p>
+
+                    </div>
+                    <div class="text-center ">
+                    
+                        <p class="num fw-semibold pb-0 mb-1">250+</p>
+                        <p class="">Happy Clients</p>
+                    
+                    </div>
+                    <div class="text-center ">
+                    
+                        <p class="num fw-semibold pb-0 mb-1">650+</p>
+                        <p class="">Projects Done</p>
+                    
+                    </div>
+                    <div class="text-center ">
+                    
+                        <p class="num fw-semibold pb-0 mb-1">38</p>
+                        <p class="">Get Awards</p>
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
